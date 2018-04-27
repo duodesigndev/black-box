@@ -1,21 +1,19 @@
 {
-  "name": "spacenow",
-  "version": "5.0.0",
+  "name": "black-box",
+  "version": "1.0.0",
   "license": "UNLICENSED",
-  "description": "Client Site Webapp for Spacenow Market Place",
+  "description": "Structure for clients",
   "keywords": [
-    "spacenow",
-    "client site",
-    "returnonclick",
-    "v5"
+    "black-box"
   ],
-  "author": "spacenow",
+  "author": "duodesigndev",
   "contributors": [
-    "Barrett Ovens <barrett@spacenow.com.au> (https://)",
-    "Lucas Nascimento <lucas@returnonclick.com.au>(https://)"
+    "Lucas Nascimento <lucas@duodesigndev.com.au>(https://)",
+    "Camila Concha <camila@duodesigndev.com.au>(https://)",
+    "Plinio <plinio@duodesigndev.com.au>(https://)"
   ],
   "bugs": {
-    "url": "https://github.com/returnonclick/Spacenow-5.0.0/issues"
+    "url": ""
   },
   "scripts": {
     "ng": "ng",
