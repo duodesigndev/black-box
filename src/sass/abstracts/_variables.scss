@@ -1,0 +1,22 @@
+:root {
+  // Brand Colors
+  --primary-color: rgba(108, 222, 147, 1);
+  --secondary-color: rgba(23, 56, 57, 1);
+  --darker-green: rgba(77, 99, 100, 1);
+
+  // Secondary Colors
+  --white: rgba(255, 255, 255, 1);
+  --lighter-grey: rgba(242, 243, 245, 1);
+  --light-grey: rgba(222, 223, 229, 1);
+  --dark-grey: rgba(140, 145, 153, 1);
+  --black: rgba(0, 0, 0, 1);
+
+  // THEME
+  --font: 'Montserrat', sans-serif;
+  --gap: 30px;
+  --error-color:rgba(246,81,29,1);
+  --shadow: 0px 0px 19px -5px var(--dark-color);
+
+  // Sizes
+  --width-wrapper: minmax(auto, 1170px);
+}

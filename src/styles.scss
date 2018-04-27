@@ -1,0 +1,86 @@
+@import
+  '~sass/abstracts/variables';
+
+@import
+  '~sass/base/reset';
+
+/* You can add global styles to this file, and also import other style files */
+
+* {
+  box-sizing: border-box;
+}
+
+*:focus {
+  outline: none;
+}
+
+html, body {
+  font-family: var(--font);
+  font-weight: 300;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font);
+  font-weight: 700;
+}
+
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {font-weight: inherit;}
+h1 {font-size: 3rem}
+h2 {font-size: 2.5rem}
+h3 {font-size: 2rem}
+h4 {font-size: 1.5rem}
+h5 {font-size: 1rem}
+h6 {font-size: .8rem}
+
+a {
+  color: var(--dark-color);
+  text-decoration: none;
+  transition: all .5s ease;
+}
+
+a:hover {
+  color: var(--primary-color);
+}
+
+p {
+  font-size: 1.5rem;
+  font-weight: 300;
+  line-height: 3rem;
+}
+
+.main-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+}
+
+.main-container > * {
+  grid-column: 1 / 2;
+}
+
+/**
+*
+* HELPERS
+*
+**/
+
+.wrapper {
+  display: grid;
+  grid-template-columns: minmax(calc(var(--gap) / 8), auto) var(--width-wrapper) minmax(calc(var(--gap) / 8), auto);
+  grid-template-areas: 
+  ". inner .";
+
+  height: 100%;
+  width: 100%;
+}
+
+
+.wrapper > .inner {
+  display: grid;
+  grid-area: inner;
+  grid-gap: var(--gap);
+  grid-template-rows: auto;
+  grid-template-columns: repeat(12, 1fr);
+}
