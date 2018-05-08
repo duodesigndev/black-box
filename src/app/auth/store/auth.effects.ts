@@ -2,7 +2,7 @@ import { Injectable } from '@angular/core'
 import { Router } from '@angular/router'
 import { Actions, Effect, ofType } from '@ngrx/effects'
 import { catchError, exhaustMap, map, tap } from 'rxjs/operators'
-import { of } from 'rxjs/observable/of';
+import { of } from 'rxjs';
 
 import * as actions from './auth.actions'
 import { Authenticate } from '@models/user'
