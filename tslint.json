@@ -18,6 +18,10 @@
     "forin": true,
     "import-blacklist": [
       true,
+<<<<<<< HEAD
+=======
+      "rxjs",
+>>>>>>> 183aba0c0ee4d45a2f62a454bb51e20e91f26a24
       "rxjs/Rx"
     ],
     "import-spacing": true,
@@ -116,6 +120,21 @@
       "check-separator",
       "check-type"
     ],
+<<<<<<< HEAD
+=======
+    "directive-selector": [
+      true,
+      "attribute",
+      "app",
+      "camelCase"
+    ],
+    "component-selector": [
+      true,
+      "element",
+      "app",
+      "kebab-case"
+    ],
+>>>>>>> 183aba0c0ee4d45a2f62a454bb51e20e91f26a24
     "no-output-on-prefix": true,
     "use-input-property-decorator": true,
     "use-output-property-decorator": true,

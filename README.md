@@ -1,6 +1,12 @@
+<<<<<<< HEAD
 # LDA
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.0.
+=======
+# Black Box
+
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.5.
+>>>>>>> 183aba0c0ee4d45a2f62a454bb51e20e91f26a24
 
 ## Development server
 
@@ -12,7 +18,11 @@ Run `ng generate component component-name` to generate a new component. You can 
 
 ## Build
 
+<<<<<<< HEAD
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+=======
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+>>>>>>> 183aba0c0ee4d45a2f62a454bb51e20e91f26a24
 
 ## Running unit tests
 
