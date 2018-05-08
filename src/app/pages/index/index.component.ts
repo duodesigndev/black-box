@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'eff-index',
+  selector: 'duo-index',
   templateUrl: './index.component.html',
   styleUrls: ['./index.component.scss']
 })

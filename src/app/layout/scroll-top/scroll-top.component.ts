@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'sn-scroll-top',
+  selector: 'duo-scroll-top',
   templateUrl: './scroll-top.component.html',
   styleUrls: ['./scroll-top.component.scss']
 })

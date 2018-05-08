@@ -1,10 +1,10 @@
 import { Component } from '@angular/core';
 
 /**
- * The sn-footer component
+ * The duo-footer component
  */
 @Component({
-  selector: 'sn-footer',
+  selector: 'duo-footer',
   templateUrl: './footer.component.html',
   styleUrls: ['./footer.component.scss']
 })

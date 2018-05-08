@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'eff-not-found',
+  selector: 'duo-not-found',
   templateUrl: './not-found.component.html',
   styleUrls: ['./not-found.component.scss']
 })

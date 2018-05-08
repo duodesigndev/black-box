@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'sn-layout',
+  selector: 'duo-layout',
   templateUrl: './layout.component.html',
   styleUrls: ['./layout.component.scss']
 })

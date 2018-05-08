@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'eff-pages',
+  selector: 'duo-pages',
   templateUrl: './pages.component.html',
   styleUrls: ['./pages.component.scss']
 })

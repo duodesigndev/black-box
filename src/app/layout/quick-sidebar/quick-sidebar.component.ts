@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'sn-quick-sidebar',
+  selector: 'duo-quick-sidebar',
   templateUrl: './quick-sidebar.component.html',
   styleUrls: ['./quick-sidebar.component.scss']
 })
